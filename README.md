@@ -2,13 +2,11 @@
 
 cli password generator by Golang
 
-
-
 ## Introduction
 
 only type `pw`
 
-	% pw
+	% pwgen
 	ZIqUwU0znI
 	kLmDwR70LM
 	84ZlsZKQWX
@@ -20,8 +18,6 @@ only type `pw`
 	JFTX3OhitP
 	4igsXqCiKf
 
-
-
 ## Installation
 
 ### step1. Install pwgen
@@ -32,15 +28,16 @@ only type `pw`
 
 If you are developer (case: Linux, MacOS)
 
-	$ go get github.com/girigiribauer/go-pwgen
+	$ go get github.com/jniltinho/go-pwgen
 
-	$ cd $GOPATH/src/github.com/girigiribauer/go-pwgen/cmd/pw
+	$ cd $GOPATH/src/github.com/jniltinho/go-pwgen/cmd/pw
 
-	$ go install
+	$ go build -ldflags "-s -w" -v -o pwgen cmd/pw/*.go
+	
 
 or Homebrew (case: MacOS)
 
-	$ brew tap girigiribauer/go-pwgen
+	$ brew tap jniltinho/go-pwgen
 
 	$ brew install go-pwgen
 
@@ -50,8 +47,7 @@ If you are end-user, you can download release binaries.
 
 ### step2. You can read manual
 
-	$ pw -h
-
+	$ pwgen -h
 
 
 ## Options

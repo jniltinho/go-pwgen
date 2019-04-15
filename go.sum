@@ -1,0 +1,8 @@
+github.com/girigiribauer/go-pwgen v0.2.1 h1:w8IrP+mhbZxe/EZAppIA5sUR8FM3NivKKNDwQnYV0W0=
+github.com/girigiribauer/go-pwgen v0.2.1/go.mod h1:mjZGPf10lgBWM177krreSD6XbJDbn0Rnuq/wStFejSM=
+github.com/nbutton23/zxcvbn-go v0.0.0-20180912185939-ae427f1e4c1d h1:AREM5mwr4u1ORQBMvzfzBgpsctsbQikCVpvC+tX285E=
+github.com/nbutton23/zxcvbn-go v0.0.0-20180912185939-ae427f1e4c1d/go.mod h1:o96djdrsSGy3AWPyBgZMAGfxZNfgntdJG+11KU4QvbU=
+gopkg.in/urfave/cli.v1 v1.19.1 h1:pkwzWQSFerxgLtkdWlnjwOS+Vd7VCp/Kwdn3kmeflXQ=
+gopkg.in/urfave/cli.v1 v1.19.1/go.mod h1:vuBzUtMdQeixQj8LVd+/98pzhxNGQoyuPBlsXHOQNO0=
+gopkg.in/urfave/cli.v1 v1.20.0 h1:NdAVW6RYxDif9DhDHaAortIu956m2c0v+09AZBPTbE0=
+gopkg.in/urfave/cli.v1 v1.20.0/go.mod h1:vuBzUtMdQeixQj8LVd+/98pzhxNGQoyuPBlsXHOQNO0=
