@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/girigiribauer/go-pwgen"
+	"github.com/jniltinho/go-pwgen"
 	"gopkg.in/urfave/cli.v1"
 )
 
