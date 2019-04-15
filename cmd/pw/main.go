@@ -11,18 +11,18 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "pw"
-	app.Version = "0.2.1"
+	app.Name = "pwgen"
+	app.Version = "0.3.0"
 	app.Compiled = time.Now()
 	app.Authors = []cli.Author{
 		cli.Author{
-			Name:  "girigiribauer",
-			Email: "girigiribauer@gmail.com",
+			Name:  "jniltinho",
+			Email: "jniltinho@gmail.com",
 		},
 	}
-	app.Copyright = "(c) 2017 girigiribauer"
-	app.Usage = "`pw` password generator by Golang"
-	app.UsageText = "pw [options]"
+	app.Copyright = "(c) 2019 jniltinho"
+	app.Usage = "`pwgen` password generator by Golang 1.12"
+	app.UsageText = "pwgen [options]"
 
 	app.Flags = []cli.Flag{
 		cli.IntFlag{
